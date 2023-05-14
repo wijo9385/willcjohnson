@@ -1,0 +1,17 @@
+.portfolio-card {
+    transition: 0.2s;
+}
+
+.portfolio-overlay {
+    transform: scale(0);
+}
+
+.portfolio-card:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-card:hover .portfolio-overlay {
+    transform: scale(1);
+    background: rgba(0,0,0,.5);
+}
+
